@@ -1,0 +1,131 @@
+body {
+    background: black;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;    
+}
+
+main {
+    margin: 3rem auto;
+    background: white;
+    width: 35%;
+}
+
+header {
+    display:flex;
+    padding:5px;
+}
+
+.user-pic {
+    display:flex;
+}
+
+.user-pic img {
+    width: 50px;
+}
+
+.user-id {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: .5rem;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 10%;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.icons {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-icons span, .secondary-icons span {
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.pic-info {
+    padding:10px;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.likes-pics {
+    display:flex;
+    margin-right: 10px;
+}
+
+.likes-pics img {
+    border-radius: 50%;
+    height:25px;
+    border: 3px solid white;
+}
+
+.likes-pics img:nth-child(2), .likes-pics img:nth-child(3) {
+    margin-left:-10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.comments {
+    margin-top:10px;
+}
+
+#comment-box {
+    display:flex;
+    align-items: center;
+}
+
+#comment-box div:first-child {
+    font-size: 2rem;
+    color:grey;
+    padding: 10px;
+}
+
+.comment-textbox {
+    width:100%;
+}
+
+#comment-form {
+    display:flex;
+    justify-content: space-between;
+    width: 98%;
+}
+
+input[type="text"] {
+    border: none;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+
+input[type="submit"] {
+    border: none;
+    font-size: 1rem;
+    background: none;
+    color: rgb(144, 183, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+

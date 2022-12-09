@@ -1,6 +1,9 @@
 body {
     background: black;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;    
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 
 main {
@@ -129,3 +132,27 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+@media (max-width: 1200x) {
+  main {
+    width: 60%;
+  }
+}
+
+@media (max-width: 960px) {
+  main {
+    width: 60%;
+  }
+}
+
+@media (max-width: 640px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 100%;
+    margin: 0;
+  }
+}
